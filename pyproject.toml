@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mana-house"
+version = "0.1.0"
+description = "A microservice for matching and converting Magic: The Gathering card exports across platforms."
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "pydantic>=2.0",
+    "requests"
+]
